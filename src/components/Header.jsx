@@ -2,7 +2,7 @@ import moment from 'moment';
 import logo from '../assets/logo.png';
 const Header = () => {
   return (
-    <div className="flex flex-col justify-center gap-2 py-3">
+    <div className="flex flex-col justify-center items-center gap-2 py-3">
       <div>
         <img className="w-80" src={logo} alt="" />
       </div>
